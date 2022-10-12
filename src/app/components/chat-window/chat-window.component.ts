@@ -1,5 +1,11 @@
-import { Component, HostListener, Input, OnInit } from '@angular/core';
-import {ChatWindowService} from "./chat-window.service";
+import {
+  AfterViewInit,
+  Component,
+  HostListener,
+  Input,
+  OnInit,
+} from '@angular/core';
+import { ChatWindowService } from './chat-window.service';
 export enum whos {
   yours = 'yours',
   theirs = 'theirs',
@@ -13,7 +19,7 @@ export class Message {
   templateUrl: './chat-window.component.html',
   styleUrls: ['./chat-window.component.css'],
 })
-export class ChatWindowComponent implements OnInit {
+export class ChatWindowComponent implements OnInit, AfterViewInit {
   constructor(public service: ChatWindowService) {}
   whos = whos;
 
@@ -27,11 +33,27 @@ export class ChatWindowComponent implements OnInit {
       whos: whos.theirs,
       text: "I'm speech bubble",
     },
+    {
+      whos: whos.yours,
+      text: "I'm speech bubbleeeeeeeeeeeee fucking enourmous and bug very biggerst in tow in a row",
+    },
+    {
+      whos: whos.theirs,
+      text: "I'm speech bubble",
+    },
+    {
+      whos: whos.yours,
+      text: "I'm speech bubbleeeeeeeeeeeee fucking enourmous and bug very biggerst in tow in a row",
+    },
   ];
   beingTyped: string = '';
   messageIndex = 0;
   fullMessageBeingTyped = this.service.messages[this.messageIndex++];
-
+  ngAfterViewInit() {
+    let objDiv = document.getElementById('chat');
+    // @ts-ignore
+    objDiv.scrollTop = objDiv.scrollHeight;
+  }
   ngOnInit(): void {}
 
   @HostListener('window:keyup', ['$event'])
@@ -43,6 +65,12 @@ export class ChatWindowComponent implements OnInit {
   sendMessage() {
     this.previousMessages.push({ whos: whos.yours, text: this.beingTyped });
     this.beingTyped = '';
-    this.fullMessageBeingTyped = this.service.messages[this.messageIndex++]
+    this.fullMessageBeingTyped = this.service.messages[this.messageIndex++];
+    setTimeout( () => {
+      let objDiv = document.getElementById('chat');
+      // @ts-ignore
+      objDiv.scrollTop = objDiv.scrollHeight;
+    },10)
+
   }
 }

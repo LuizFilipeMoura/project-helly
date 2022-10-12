@@ -2,7 +2,7 @@
   <div class="online-circle"></div>
   <p>Helly</p>
 </div>
-<div class="chat">
+<div class="chat" id="chat">
   <div
     *ngFor="let message of previousMessages; let i = index"
     [class.yours]="message.whos === whos.yours"
@@ -20,7 +20,11 @@
 </div>
 <div class="fake-input-area d-flex justify-content-between">
   <p>{{ beingTyped }}</p>
-  <button mat-mini-fab (click)="sendMessage()">
+  <button
+    mat-mini-fab
+    (click)="sendMessage()"
+    [disabled]="fullMessageBeingTyped.length > this.beingTyped.length"
+  >
     <mat-icon>send</mat-icon>
   </button>
 </div>
