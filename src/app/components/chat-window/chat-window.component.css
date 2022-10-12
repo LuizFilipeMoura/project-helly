@@ -27,8 +27,7 @@
 
 .box {
   width: 280px;
-  padding: 2px;
-  text-align: center;
+  padding: 8px;
   position: relative;
   border-radius: 5px;
 }
