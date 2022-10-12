@@ -3,17 +3,24 @@
   <p>Helly</p>
 </div>
 <div class="chat">
-  <div class="yours">
-    <div class="box sb1">
-      I'm speech bubbleeeeeeeeeeeee fucking enourmous and bug very biggerst in
-      tow in a row
+  <div
+    *ngFor="let message of previousMessages; let i = index"
+    [class.yours]="message.whos === whos.yours"
+    [class.theirs]="message.whos === whos.theirs"
+  >
+    <div
+      class="box"
+      [class.sb1]="message.whos === whos.yours"
+      [class.sb2]="message.whos === whos.theirs"
+    >
+      {{ message.text }}
     </div>
-  </div>
-  <div class="theirs">
-    <div class="box sb2">I'm speech bubble</div>
   </div>
   <div class="message yours"></div>
 </div>
-<div class="fake-input-area" >
+<div class="fake-input-area d-flex justify-content-between">
   <p>{{ beingTyped }}</p>
+  <button mat-mini-fab (click)="sendMessage()">
+    <mat-icon>send</mat-icon>
+  </button>
 </div>
