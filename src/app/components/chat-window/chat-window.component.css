@@ -1,0 +1,83 @@
+.name-bar {
+  height: 48px;
+  width: 328px;
+  background-color: #5f78b3;
+  display: flex;
+}
+.name-bar .online-circle{
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  margin: 19px 10px;
+  background-color: #94cc66;
+}
+.name-bar p {
+  color: #fafafb;
+  margin: 0;
+  line-height: 48px;
+}
+.chat{
+  background-color: #edeff4;
+  height: 328px;
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 280px;
+  padding: 2px;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+}
+.yours{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.theirs{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.sb1{
+  background: linear-gradient(to top, #c8defe 0%, #e5f0fe 100%);
+  border: 1px solid #5f78b3;
+}
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #5f78b3;
+  border-bottom: 10px solid transparent;
+  right: -10px;
+  top: 10px;
+}
+.sb2{
+  z-index: 2;
+  background: #f6f6f6;
+  border: 1px solid #c6c6c6;
+
+}
+.sb2:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid #c6c6c6;
+  border-top: 4.5px solid #c6c6c6;
+  border-bottom: 5px solid transparent;
+  left: -10px;
+  top: 10px;
+}
+.fake-input-area{
+  background: white;
+  border: 1px solid #dedfe4;
+  height: 30px;
+}
