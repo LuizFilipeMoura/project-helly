@@ -8,11 +8,7 @@
     [class.yours]="message.whos === whos.yours"
     [class.theirs]="message.whos === whos.theirs"
   >
-    <div
-      class="box"
-      [class.sb1]="message.whos === whos.yours"
-      [class.sb2]="message.whos === whos.theirs"
-    >
+    <div class="box" [class.sb1]="message.whos === whos.yours" [class.sb2]="message.whos === whos.theirs">
       {{ message.text }}
     </div>
   </div>
@@ -23,8 +19,19 @@
   <button
     mat-mini-fab
     (click)="sendMessage()"
-    [disabled]="fullMessageBeingTyped.length > this.beingTyped.length"
+    [disabled]="!fullMessageBeingTyped || fullMessageBeingTyped.length > beingTyped.length"
   >
     <mat-icon>send</mat-icon>
+  </button>
+</div>
+<div *ngIf="decision.decisivesMessages">
+  <button mat-raised-button (click)="decide(0)" *ngIf="decision.decisivesMessages[0]">
+    {{ decision.decisivesMessages[0] }}
+  </button>
+  <button mat-raised-button (click)="decide(1)" *ngIf="decision.decisivesMessages[1]">
+    {{ decision!.decisivesMessages[1] }}
+  </button>
+  <button mat-raised-button (click)="decide(2)" *ngIf="decision.decisivesMessages[2]">
+    {{ decision!.decisivesMessages[2] }}
   </button>
 </div>

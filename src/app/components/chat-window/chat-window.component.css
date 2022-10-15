@@ -4,7 +4,10 @@
   background-color: #5f78b3;
   display: flex;
 }
-.name-bar .online-circle{
+.mat-mini-fab.mat-accent {
+  background-color: #abc5ff;
+}
+.name-bar .online-circle {
   height: 10px;
   width: 10px;
   border-radius: 5px;
@@ -16,7 +19,7 @@
   margin: 0;
   line-height: 48px;
 }
-.chat{
+.chat {
   background-color: #edeff4;
   height: 328px;
   position: relative;
@@ -32,17 +35,17 @@
   position: relative;
   border-radius: 5px;
 }
-.yours{
+.yours {
   display: flex;
   justify-content: flex-end;
   margin-right: 15px;
 }
-.theirs{
+.theirs {
   display: flex;
   justify-content: flex-start;
   margin-left: 15px;
 }
-.sb1{
+.sb1 {
   background: linear-gradient(to top, #c8defe 0%, #e5f0fe 100%);
   border: 1px solid #5f78b3;
 }
@@ -57,11 +60,10 @@
   right: -10px;
   top: 10px;
 }
-.sb2{
+.sb2 {
   z-index: 2;
   background: #f6f6f6;
   border: 1px solid #c6c6c6;
-
 }
 .sb2:before {
   position: absolute;
@@ -76,7 +78,7 @@
   left: -10px;
   top: 10px;
 }
-.fake-input-area{
+.fake-input-area {
   background: white;
   border: 1px solid #dedfe4;
   padding: 5px;
