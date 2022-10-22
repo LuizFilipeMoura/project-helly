@@ -2,6 +2,16 @@
   <div class="online-circle"></div>
   <p>Helly</p>
 </div>
+<button
+  mat-fab
+  class="position-absolute keyboard-button"
+  *ngIf="canType"
+  (touchstart)="continuousTyping()"
+  (mouseup)="clearInterval(interval)"
+  (mouseleave)="clearInterval(interval)"
+>
+  <mat-icon>keyboard</mat-icon>
+</button>
 <div class="chat" id="chat">
   <div
     *ngFor="let message of previousMessages; let i = index"
@@ -14,7 +24,7 @@
   </div>
   <div class="message yours"></div>
 </div>
-<div class="fake-input-area d-flex justify-content-between">
+<div class="fake-input-area d-flex justify-content-between" [class.disabledFake]="!canType">
   <p>{{ beingTyped }}</p>
   <button
     mat-mini-fab
@@ -24,7 +34,7 @@
     <mat-icon>send</mat-icon>
   </button>
 </div>
-<div *ngIf="decision.decisivesMessages">
+<div *ngIf="decision.decisivesMessages" class="d-flex flex-column w-100 gap-2 mt-2">
   <button mat-raised-button (click)="decide(0)" *ngIf="decision.decisivesMessages[0]">
     {{ decision.decisivesMessages[0] }}
   </button>

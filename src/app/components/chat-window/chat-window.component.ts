@@ -2,6 +2,8 @@ import { AfterViewInit, Component, HostListener, OnInit } from "@angular/core";
 import { Decision, Message, whos } from "src/app/decision-tree/decisions";
 import { ChatWindowService } from "./chat-window.service";
 
+class Timer {}
+
 @Component({
   selector: "app-chat-window",
   templateUrl: "./chat-window.component.html",
@@ -15,6 +17,8 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
   messageIndex = 0;
   fullMessageBeingTyped = "";
   decision: Decision;
+  canType = false;
+  interval: any;
 
   ngOnInit(): void {
     this.decision = {
@@ -69,6 +73,10 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
           text: "sim",
         },
         {
+          whos: whos.yours,
+          text: "sim4",
+        },
+        {
           whos: whos.theirs,
           text: "a é?4",
         },
@@ -90,12 +98,13 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
   }
 
   @HostListener("window:keyup", ["$event"])
-  typing(event: KeyboardEvent) {
-    if (this.fullMessageBeingTyped.length > this.beingTyped.length)
+  typing(event?: KeyboardEvent) {
+    if (this.fullMessageBeingTyped.length > this.beingTyped.length && this.canType)
       this.beingTyped += this.fullMessageBeingTyped[this.beingTyped.length];
   }
 
   decide(decisionIndex: number) {
+    this.canType = true;
     switch (decisionIndex) {
       case 0:
         this.decision = this.decision.child0 as Decision;
@@ -126,14 +135,20 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
     this.beingTyped = "";
     let leftMessages = [...this.decision.messages];
     leftMessages = leftMessages.splice(this.messageIndex);
+    if (leftMessages.length == 0) {
+      this.canType = false;
+      return;
+    }
     const currentMessage = leftMessages[0];
     if (!currentMessage) return;
     if (currentMessage.whos === whos.theirs) {
+      this.canType = false;
       const { whos, text } = currentMessage;
       setTimeout(async () => {
         await this.sendMessage(whos, text);
       }, 1000);
     } else {
+      this.canType = true;
       this.findYoursNextMessage(leftMessages);
     }
   }
@@ -141,5 +156,13 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
     let objDiv = document.getElementById("chat");
     // @ts-ignore
     objDiv.scrollTop = objDiv.scrollHeight;
+  }
+
+  continuousTyping() {
+    this.interval = setInterval(() => this.typing(), 250);
+  }
+
+  clearInterval(interval: Timer) {
+    clearInterval(this.interval);
   }
 }

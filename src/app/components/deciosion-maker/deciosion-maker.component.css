@@ -1,0 +1,19 @@
+.decision {
+  min-height: 100px;
+  width: 400px;
+  background: #c6c6c6;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.yours {
+  justify-content: end;
+  background-color: #5f78b3;
+}
+.theirs {
+  justify-content: start;
+  background-color: #be87c7;
+}
+.message{
+  border-radius: 3px;
+}

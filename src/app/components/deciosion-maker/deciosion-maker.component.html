@@ -1,0 +1,110 @@
+<div class="vw-100 vh-100 d-flex align-items-center justify-content-center flex-column gap-4">
+  <div id="#123"></div>
+  <div class="d-flex align-items-center justify-content-between gap-4" *ngFor="let layer of getLayers()">
+    <h1>layer {{ layer }}</h1>
+    <div
+      class="decision decision1 gap-2"
+      id="decision{{ decision.id }}"
+      *ngFor="let decision of listDecisionsOnLayer(layer); let i = index"
+      [attr.data-index]="i"
+    >
+      {{ decision.id }}
+      <div class="gap-4">
+        <div
+          class="messages m-2 d-flex gap-4 flex-column"
+          cdkDropList
+          (cdkDropListDropped)="drop($event, decision.messages)"
+        >
+          <!--          <div-->
+          <!--            class="d-flex message"-->
+          <!--            [class.yours]="message.whos === 'yours'"-->
+          <!--            [class.theirs]="message.whos === 'theirs'"-->
+          <!--          >-->
+          <!--            {{ message.text }}-->
+          <!--          </div>-->
+          <div *ngFor="let message of decision.messages; let editMessageIndex = index" cdkDrag class="d-flex">
+            <div
+              class="d-flex w-100 message p-2"
+              [class.yours]="message.whos === 'yours'"
+              [class.theirs]="message.whos === 'theirs'"
+              (click)="editMessage(editMessageIndex)"
+            >
+              <div class="example-box">
+                <span *ngIf="_editMessageIndex === editMessageIndex">
+                  <input [(ngModel)]="message.text" (blur)="stopEdit()" autofocus id="_input" />
+                </span>
+                <span *ngIf="_editMessageIndex !== editMessageIndex">{{ message.text }}</span>
+              </div>
+            </div>
+            <button mat-icon-button (click)="removeMessage(decision, editMessageIndex)">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex">
+        <input #input class="w-100"/>
+        <select #select>
+          <option value="yours">you</option>
+          <option value="theirs">theirs</option>
+        </select>
+        <button
+          mat-icon-button
+          (click)="addMessage(decision, { whos: select.value, text: input.value }); input.value = ''"
+        >
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+
+      <div class="d-flex flex-row w-100 gap-2">
+        <span *ngIf="decision.child0 && relocateArrows">
+          <ngx-domarrow
+            from="#{{ 'child0' + decision.id }}"
+            to="#decision{{ decision.child0.id }}"
+            [tail]="true"
+            [onlyVisible]="true"
+            color="red"
+          ></ngx-domarrow
+        ></span>
+        <span *ngIf="decision.child1 && relocateArrows">
+          <ngx-domarrow
+            from="#{{ 'child1' + decision.id }}"
+            to="#decision{{ decision.child1.id }}"
+            [tail]="true"
+            [onlyVisible]="true"
+            color="red"
+          ></ngx-domarrow
+        ></span>
+        <span *ngIf="decision.child2 && relocateArrows">
+          <ngx-domarrow
+            from="#{{ 'child2' + decision.id }}"
+            to="#decision{{ decision.child2.id }}"
+            [tail]="true"
+            [onlyVisible]="true"
+            color="red"
+          ></ngx-domarrow
+        ></span>
+
+        <button mat-raised-button class="w-100" (click)="addChild(decision, 0)" [id]="'child0' + decision.id">
+          child 0
+        </button>
+        <button mat-raised-button class="w-100" (click)="addChild(decision, 1)" [id]="'child1' + decision.id">
+          child 1
+        </button>
+        <button mat-raised-button class="w-100" (click)="addChild(decision, 2)" [id]="'child2' + decision.id">
+          child 2
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--  <div class="d-flex align-items-center justify-content-between gap-4">-->
+  <!--    <div class="decision"></div>-->
+  <!--    <div class="decision"></div>-->
+  <!--  </div>-->
+  <!--  <div class="d-flex align-items-center justify-content-between gap-4">-->
+  <!--    <div class="decision"></div>-->
+  <!--    <div class="decision"></div>-->
+  <!--    <div class="decision" #image2 id="image2"></div>-->
+  <!--    <div class="decision"></div>-->
+  <!--  </div>-->
+</div>
