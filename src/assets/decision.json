@@ -1,0 +1,1732 @@
+{
+  "id": 314091448,
+  "messages": [
+    { "whos": "theirs", "text": "😘just went through hell to find your profile, you better talk to me " },
+    { "whos": "yours", "text": "hey there haha" },
+    {
+      "whos": "yours",
+      "text": "sorry but i would never do the same to you hehe. I would ask Dias to ask you for me, I'm shy like that"
+    },
+    { "whos": "theirs", "text": "😂😂" }
+  ],
+  "decisivesMessages": ["are you single?", "did you enjoy the song?", "still interested in learning poker?"],
+  "layer": 0,
+  "child0": {
+    "id": 264628347,
+    "layer": 1,
+    "decisivesMessages": ["I need someone closer", "I really like you", ""],
+    "messages": [
+      { "whos": "yours", "text": "single again?" },
+      { "whos": "theirs", "text": "single?" },
+      {
+        "whos": "yours",
+        "text": "yeah, I just broke up with a chick. The distance is too overwhelming and it dindn't quite worked out"
+      },
+      { "whos": "theirs", "text": "bullshit 😒" },
+      { "whos": "yours", "text": "I'm serious 😕" }
+    ],
+    "child0": {
+      "id": 909969195,
+      "layer": 2,
+      "decisivesMessages": ["i like you", "", ""],
+      "messages": [
+        { "whos": "yours", "text": "It's too tough to deal with distance, I think I need someone closer to me " },
+        { "whos": "theirs", "text": "oof, that sounds rought" },
+        {
+          "whos": "theirs",
+          "text": "i had a problem like that in the past, the guy moved from town and i was devasted"
+        },
+        { "whos": "yours", "text": "yeah... but i think it was for the best" }
+      ],
+      "fatherId": 264628347,
+      "child0": {
+        "id": 974286233,
+        "layer": 2,
+        "decisivesMessages": ["saw it on the net", "dias told me", ""],
+        "messages": [
+          { "whos": "yours", "text": "i really need to tell you something" },
+          { "whos": "yours", "text": "i really " },
+          { "whos": "yours", "text": "really like you" },
+          { "whos": "theirs", "text": "ok, who's there? who took __ phone?" },
+          { "whos": "theirs", "text": "😂😂" },
+          { "whos": "yours", "text": "what about you?" },
+          { "whos": "theirs", "text": "me? if I like you?" },
+          { "whos": "theirs", "text": "i mean, it depends" },
+          { "whos": "theirs", "text": "i'm not freaked about about you or anything" },
+          { "whos": "yours", "text": "not freaked out? lol" },
+          { "whos": "theirs", "text": "nope U.U" },
+          { "whos": "theirs", "text": "i'm proud like that haha" },
+          { "whos": "yours", "text": "really? hahaha" },
+          { "whos": "theirs", "text": "i'm not that easy 😚" },
+          { "whos": "theirs", "text": "but why?" }
+        ],
+        "fatherId": 264628347,
+        "child0": {
+          "id": 947809216,
+          "layer": 3,
+          "decisivesMessages": ["do you feel the same?", "", ""],
+          "messages": [
+            { "whos": "yours", "text": "i saw it on the internet" },
+            {
+              "whos": "yours",
+              "text": "girls with the same behaviour as you are with me it seems like you are into me 😎"
+            },
+            { "whos": "theirs", "text": "you're an idiot 😒" },
+            { "whos": "yours", "text": "but is it wrong?" },
+            { "whos": "theirs", "text": "not entirely..." },
+            { "whos": "yours", "text": "Dias was the one that recommended the page " }
+          ],
+          "fatherId": 974286233,
+          "child0": {
+            "id": 268328066,
+            "layer": 4,
+            "decisivesMessages": ["what is happening", "are you ok?", ""],
+            "messages": [
+              { "whos": "yours", "text": "but do you feel the same?" },
+              { "whos": "theirs", "text": "yeah... yes" },
+              {
+                "whos": "yours",
+                "text": "don't feel pressured, Dias loves me as well, I can live just with his love for me and that will be enough 😎"
+              },
+              { "whos": "theirs", "text": "you are the most stupid guy I have ever talked to 😒😒" },
+              { "whos": "theirs", "text": "hahaha" },
+              { "whos": "theirs", "text": "but" },
+              { "whos": "theirs", "text": "damm you " },
+              { "whos": "theirs", "text": "OMG i can' believe it's happening" },
+              { "whos": "theirs", "text": "are you serious?" }
+            ],
+            "fatherId": 947809216,
+            "child0": {
+              "id": 156458518,
+              "layer": 5,
+              "decisivesMessages": ["sign?", "", ""],
+              "messages": [
+                { "whos": "yours", "text": "what is happening with you... my goodness" },
+                { "whos": "theirs", "text": "I'm kind of freaking out right now " },
+                { "whos": "theirs", "text": "ok, I need you to sign this" }
+              ],
+              "fatherId": 268328066,
+              "child0": {
+                "id": 261990444,
+                "layer": 6,
+                "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+                "messages": [
+                  { "whos": "yours", "text": "sign?" },
+                  { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                  { "whos": "theirs", "text": "making sure that I own you entirely" }
+                ],
+                "fatherId": 156458518,
+                "child0": {
+                  "id": 113324653,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "send it over" },
+                    { "whos": "theirs", "text": "U.U not convincing" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child1": {
+                  "id": 42476455,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                    { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                    { "whos": "yours", "text": "hahahahahaha" },
+                    { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child2": {
+                  "id": 396412783,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "my godness you're weird" },
+                    { "whos": "theirs", "text": "get used to it u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                }
+              }
+            },
+            "child1": {
+              "id": 288118022,
+              "layer": 5,
+              "decisivesMessages": ["sign?", "", ""],
+              "messages": [
+                { "whos": "yours", "text": "are you ok?" },
+                { "whos": "yours", "text": "can I call an ambulance for you?" },
+                { "whos": "theirs", "text": "OMG i hate you so much" },
+                { "whos": "theirs", "text": "ok, I need you to sign this" }
+              ],
+              "fatherId": 268328066,
+              "child0": {
+                "id": 261990444,
+                "layer": 6,
+                "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+                "messages": [
+                  { "whos": "yours", "text": "sign?" },
+                  { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                  { "whos": "theirs", "text": "making sure that I own you entirely" }
+                ],
+                "fatherId": 156458518,
+                "child0": {
+                  "id": 113324653,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "send it over" },
+                    { "whos": "theirs", "text": "U.U not convincing" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child1": {
+                  "id": 42476455,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                    { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                    { "whos": "yours", "text": "hahahahahaha" },
+                    { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child2": {
+                  "id": 396412783,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "my godness you're weird" },
+                    { "whos": "theirs", "text": "get used to it u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "child1": {
+          "id": 254472386,
+          "layer": 3,
+          "decisivesMessages": ["do you feel the same?", "", ""],
+          "messages": [
+            { "whos": "yours", "text": "Dias told me hahaha" },
+            { "whos": "theirs", "text": "motherf..." },
+            { "whos": "yours", "text": "please don't be mad at him, i almost forced him hahaha" }
+          ],
+          "fatherId": 974286233,
+          "child0": {
+            "id": 268328066,
+            "layer": 4,
+            "decisivesMessages": ["what is happening", "are you ok?", ""],
+            "messages": [
+              { "whos": "yours", "text": "but do you feel the same?" },
+              { "whos": "theirs", "text": "yeah... yes" },
+              {
+                "whos": "yours",
+                "text": "don't feel pressured, Dias loves me as well, I can live just with his love for me and that will be enough 😎"
+              },
+              { "whos": "theirs", "text": "you are the most stupid guy I have ever talked to 😒😒" },
+              { "whos": "theirs", "text": "hahaha" },
+              { "whos": "theirs", "text": "but" },
+              { "whos": "theirs", "text": "damm you " },
+              { "whos": "theirs", "text": "OMG i can' believe it's happening" },
+              { "whos": "theirs", "text": "are you serious?" }
+            ],
+            "fatherId": 947809216,
+            "child0": {
+              "id": 156458518,
+              "layer": 5,
+              "decisivesMessages": ["sign?", "", ""],
+              "messages": [
+                { "whos": "yours", "text": "what is happening with you... my goodness" },
+                { "whos": "theirs", "text": "I'm kind of freaking out right now " },
+                { "whos": "theirs", "text": "ok, I need you to sign this" }
+              ],
+              "fatherId": 268328066,
+              "child0": {
+                "id": 261990444,
+                "layer": 6,
+                "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+                "messages": [
+                  { "whos": "yours", "text": "sign?" },
+                  { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                  { "whos": "theirs", "text": "making sure that I own you entirely" }
+                ],
+                "fatherId": 156458518,
+                "child0": {
+                  "id": 113324653,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "send it over" },
+                    { "whos": "theirs", "text": "U.U not convincing" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child1": {
+                  "id": 42476455,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                    { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                    { "whos": "yours", "text": "hahahahahaha" },
+                    { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child2": {
+                  "id": 396412783,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "my godness you're weird" },
+                    { "whos": "theirs", "text": "get used to it u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                }
+              }
+            },
+            "child1": {
+              "id": 288118022,
+              "layer": 5,
+              "decisivesMessages": ["sign?", "", ""],
+              "messages": [
+                { "whos": "yours", "text": "are you ok?" },
+                { "whos": "yours", "text": "can I call an ambulance for you?" },
+                { "whos": "theirs", "text": "OMG i hate you so much" },
+                { "whos": "theirs", "text": "ok, I need you to sign this" }
+              ],
+              "fatherId": 268328066,
+              "child0": {
+                "id": 261990444,
+                "layer": 6,
+                "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+                "messages": [
+                  { "whos": "yours", "text": "sign?" },
+                  { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                  { "whos": "theirs", "text": "making sure that I own you entirely" }
+                ],
+                "fatherId": 156458518,
+                "child0": {
+                  "id": 113324653,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "send it over" },
+                    { "whos": "theirs", "text": "U.U not convincing" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child1": {
+                  "id": 42476455,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                    { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                    { "whos": "yours", "text": "hahahahahaha" },
+                    { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                },
+                "child2": {
+                  "id": 396412783,
+                  "layer": 7,
+                  "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                  "messages": [
+                    { "whos": "yours", "text": "my godness you're weird" },
+                    { "whos": "theirs", "text": "get used to it u.u" }
+                  ],
+                  "fatherId": 261990444,
+                  "child0": {
+                    "id": 618071191,
+                    "layer": 8,
+                    "decisivesMessages": [
+                      "contract? you havent said you liked me",
+                      "little bit too soon?",
+                      "fine, I'll sign it"
+                    ],
+                    "messages": [
+                      { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                      {
+                        "whos": "theirs",
+                        "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                      },
+                      { "whos": "theirs", "text": "please sign it 😭😭" },
+                      { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                      { "whos": "theirs", "text": "boo, what a bummer" }
+                    ],
+                    "fatherId": 113324653,
+                    "child0": {
+                      "id": 758999493,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child1": {
+                      "id": 45317571,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    },
+                    "child2": {
+                      "id": 479129994,
+                      "layer": 9,
+                      "decisivesMessages": ["", "", ""],
+                      "messages": [{ "whos": "yours", "text": "final" }],
+                      "fatherId": 618071191
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "child1": {
+      "id": 974286233,
+      "layer": 2,
+      "decisivesMessages": ["saw it on the net", "dias told me", ""],
+      "messages": [
+        { "whos": "yours", "text": "i really need to tell you something" },
+        { "whos": "yours", "text": "i really " },
+        { "whos": "yours", "text": "really like you" },
+        { "whos": "theirs", "text": "ok, who's there? who took __ phone?" },
+        { "whos": "theirs", "text": "😂😂" },
+        { "whos": "yours", "text": "what about you?" },
+        { "whos": "theirs", "text": "me? if I like you?" },
+        { "whos": "theirs", "text": "i mean, it depends" },
+        { "whos": "theirs", "text": "i'm not freaked about about you or anything" },
+        { "whos": "yours", "text": "not freaked out? lol" },
+        { "whos": "theirs", "text": "nope U.U" },
+        { "whos": "theirs", "text": "i'm proud like that haha" },
+        { "whos": "yours", "text": "really? hahaha" },
+        { "whos": "theirs", "text": "i'm not that easy 😚" },
+        { "whos": "theirs", "text": "but why?" }
+      ],
+      "fatherId": 264628347,
+      "child0": {
+        "id": 947809216,
+        "layer": 3,
+        "decisivesMessages": ["do you feel the same?", "", ""],
+        "messages": [
+          { "whos": "yours", "text": "i saw it on the internet" },
+          {
+            "whos": "yours",
+            "text": "girls with the same behaviour as you are with me it seems like you are into me 😎"
+          },
+          { "whos": "theirs", "text": "you're an idiot 😒" },
+          { "whos": "yours", "text": "but is it wrong?" },
+          { "whos": "theirs", "text": "not entirely..." },
+          { "whos": "yours", "text": "Dias was the one that recommended the page " }
+        ],
+        "fatherId": 974286233,
+        "child0": {
+          "id": 268328066,
+          "layer": 4,
+          "decisivesMessages": ["what is happening", "are you ok?", ""],
+          "messages": [
+            { "whos": "yours", "text": "but do you feel the same?" },
+            { "whos": "theirs", "text": "yeah... yes" },
+            {
+              "whos": "yours",
+              "text": "don't feel pressured, Dias loves me as well, I can live just with his love for me and that will be enough 😎"
+            },
+            { "whos": "theirs", "text": "you are the most stupid guy I have ever talked to 😒😒" },
+            { "whos": "theirs", "text": "hahaha" },
+            { "whos": "theirs", "text": "but" },
+            { "whos": "theirs", "text": "damm you " },
+            { "whos": "theirs", "text": "OMG i can' believe it's happening" },
+            { "whos": "theirs", "text": "are you serious?" }
+          ],
+          "fatherId": 947809216,
+          "child0": {
+            "id": 156458518,
+            "layer": 5,
+            "decisivesMessages": ["sign?", "", ""],
+            "messages": [
+              { "whos": "yours", "text": "what is happening with you... my goodness" },
+              { "whos": "theirs", "text": "I'm kind of freaking out right now " },
+              { "whos": "theirs", "text": "ok, I need you to sign this" }
+            ],
+            "fatherId": 268328066,
+            "child0": {
+              "id": 261990444,
+              "layer": 6,
+              "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+              "messages": [
+                { "whos": "yours", "text": "sign?" },
+                { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                { "whos": "theirs", "text": "making sure that I own you entirely" }
+              ],
+              "fatherId": 156458518,
+              "child0": {
+                "id": 113324653,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "send it over" },
+                  { "whos": "theirs", "text": "U.U not convincing" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child1": {
+                "id": 42476455,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                  { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                  { "whos": "yours", "text": "hahahahahaha" },
+                  { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child2": {
+                "id": 396412783,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "my godness you're weird" },
+                  { "whos": "theirs", "text": "get used to it u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              }
+            }
+          },
+          "child1": {
+            "id": 288118022,
+            "layer": 5,
+            "decisivesMessages": ["sign?", "", ""],
+            "messages": [
+              { "whos": "yours", "text": "are you ok?" },
+              { "whos": "yours", "text": "can I call an ambulance for you?" },
+              { "whos": "theirs", "text": "OMG i hate you so much" },
+              { "whos": "theirs", "text": "ok, I need you to sign this" }
+            ],
+            "fatherId": 268328066,
+            "child0": {
+              "id": 261990444,
+              "layer": 6,
+              "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+              "messages": [
+                { "whos": "yours", "text": "sign?" },
+                { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                { "whos": "theirs", "text": "making sure that I own you entirely" }
+              ],
+              "fatherId": 156458518,
+              "child0": {
+                "id": 113324653,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "send it over" },
+                  { "whos": "theirs", "text": "U.U not convincing" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child1": {
+                "id": 42476455,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                  { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                  { "whos": "yours", "text": "hahahahahaha" },
+                  { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child2": {
+                "id": 396412783,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "my godness you're weird" },
+                  { "whos": "theirs", "text": "get used to it u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "child1": {
+        "id": 254472386,
+        "layer": 3,
+        "decisivesMessages": ["do you feel the same?", "", ""],
+        "messages": [
+          { "whos": "yours", "text": "Dias told me hahaha" },
+          { "whos": "theirs", "text": "motherf..." },
+          { "whos": "yours", "text": "please don't be mad at him, i almost forced him hahaha" }
+        ],
+        "fatherId": 974286233,
+        "child0": {
+          "id": 268328066,
+          "layer": 4,
+          "decisivesMessages": ["what is happening", "are you ok?", ""],
+          "messages": [
+            { "whos": "yours", "text": "but do you feel the same?" },
+            { "whos": "theirs", "text": "yeah... yes" },
+            {
+              "whos": "yours",
+              "text": "don't feel pressured, Dias loves me as well, I can live just with his love for me and that will be enough 😎"
+            },
+            { "whos": "theirs", "text": "you are the most stupid guy I have ever talked to 😒😒" },
+            { "whos": "theirs", "text": "hahaha" },
+            { "whos": "theirs", "text": "but" },
+            { "whos": "theirs", "text": "damm you " },
+            { "whos": "theirs", "text": "OMG i can' believe it's happening" },
+            { "whos": "theirs", "text": "are you serious?" }
+          ],
+          "fatherId": 947809216,
+          "child0": {
+            "id": 156458518,
+            "layer": 5,
+            "decisivesMessages": ["sign?", "", ""],
+            "messages": [
+              { "whos": "yours", "text": "what is happening with you... my goodness" },
+              { "whos": "theirs", "text": "I'm kind of freaking out right now " },
+              { "whos": "theirs", "text": "ok, I need you to sign this" }
+            ],
+            "fatherId": 268328066,
+            "child0": {
+              "id": 261990444,
+              "layer": 6,
+              "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+              "messages": [
+                { "whos": "yours", "text": "sign?" },
+                { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                { "whos": "theirs", "text": "making sure that I own you entirely" }
+              ],
+              "fatherId": 156458518,
+              "child0": {
+                "id": 113324653,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "send it over" },
+                  { "whos": "theirs", "text": "U.U not convincing" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child1": {
+                "id": 42476455,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                  { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                  { "whos": "yours", "text": "hahahahahaha" },
+                  { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child2": {
+                "id": 396412783,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "my godness you're weird" },
+                  { "whos": "theirs", "text": "get used to it u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              }
+            }
+          },
+          "child1": {
+            "id": 288118022,
+            "layer": 5,
+            "decisivesMessages": ["sign?", "", ""],
+            "messages": [
+              { "whos": "yours", "text": "are you ok?" },
+              { "whos": "yours", "text": "can I call an ambulance for you?" },
+              { "whos": "theirs", "text": "OMG i hate you so much" },
+              { "whos": "theirs", "text": "ok, I need you to sign this" }
+            ],
+            "fatherId": 268328066,
+            "child0": {
+              "id": 261990444,
+              "layer": 6,
+              "decisivesMessages": ["ok, send it over", "you are ever crazier than I thought", "ok... weirdo"],
+              "messages": [
+                { "whos": "yours", "text": "sign?" },
+                { "whos": "theirs", "text": "yeah, i'll send you an marriage contract" },
+                { "whos": "theirs", "text": "making sure that I own you entirely" }
+              ],
+              "fatherId": 156458518,
+              "child0": {
+                "id": 113324653,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "send it over" },
+                  { "whos": "theirs", "text": "U.U not convincing" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child1": {
+                "id": 42476455,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "you are even crazier than I though, my god " },
+                  { "whos": "yours", "text": "I AM NO ONE'S PROPERTY" },
+                  { "whos": "yours", "text": "hahahahahaha" },
+                  { "whos": "theirs", "text": "or this, or we are not dating u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              },
+              "child2": {
+                "id": 396412783,
+                "layer": 7,
+                "decisivesMessages": ["ok my dear love, please send this contract over", "", ""],
+                "messages": [
+                  { "whos": "yours", "text": "my godness you're weird" },
+                  { "whos": "theirs", "text": "get used to it u.u" }
+                ],
+                "fatherId": 261990444,
+                "child0": {
+                  "id": 618071191,
+                  "layer": 8,
+                  "decisivesMessages": [
+                    "contract? you havent said you liked me",
+                    "little bit too soon?",
+                    "fine, I'll sign it"
+                  ],
+                  "messages": [
+                    { "whos": "yours", "text": "ok my dear love, my darling, please send the contract over" },
+                    {
+                      "whos": "theirs",
+                      "text": "Tenure agreement I declare that I __ belong to Helly solely, completely, exclusively and unconditionally. Signature:"
+                    },
+                    { "whos": "theirs", "text": "please sign it 😭😭" },
+                    { "whos": "yours", "text": "ok, I'll do it. But I need a lawyer first" },
+                    { "whos": "theirs", "text": "boo, what a bummer" }
+                  ],
+                  "fatherId": 113324653,
+                  "child0": {
+                    "id": 758999493,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child1": {
+                    "id": 45317571,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  },
+                  "child2": {
+                    "id": 479129994,
+                    "layer": 9,
+                    "decisivesMessages": ["", "", ""],
+                    "messages": [{ "whos": "yours", "text": "final" }],
+                    "fatherId": 618071191
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "child1": {
+    "id": 619677696,
+    "layer": 1,
+    "decisivesMessages": ["we broke up because of the distance", "nevermind them, I really like you", ""],
+    "messages": [
+      { "whos": "yours", "text": "did you enjoy that song I sent you?" },
+      { "whos": "theirs", "text": "it's not quite my style... but it's not bad :) " },
+      {
+        "whos": "theirs",
+        "text": "it's that kind of song you listen to make a friend from school happy when they show it to you 😂"
+      },
+      { "whos": "yours", "text": "gotcha 😆" },
+      { "whos": "theirs", "text": "you know Skillet? I really like their songs" },
+      { "whos": "yours", "text": "I'll search for it, thanks" },
+      { "whos": "theirs", "text": "so, what about the girlfriends? " }
+    ],
+    "child1": {
+      "id": 974286233,
+      "layer": 2,
+      "decisivesMessages": ["child0", "child1", "child2"],
+      "messages": [
+        { "whos": "yours", "text": "i really need to tell you something" },
+        { "whos": "yours", "text": "i really " },
+        { "whos": "yours", "text": "really like you" },
+        { "whos": "theirs", "text": "ok, who's there? who took __ phone?" },
+        { "whos": "theirs", "text": "😂😂" }
+      ],
+      "fatherId": 264628347
+    },
+    "child0": {
+      "id": 909969195,
+      "layer": 2,
+      "decisivesMessages": ["child0", "child1", "child2"],
+      "messages": [
+        { "whos": "yours", "text": "It's too tough to deal with distance, I think I need someone closer to me " },
+        { "whos": "theirs", "text": "oof, that sounds rought" },
+        {
+          "whos": "theirs",
+          "text": "i had a problem like that in the past, the guy moved from town and i was devasted"
+        }
+      ],
+      "fatherId": 264628347
+    }
+  },
+  "child2": {
+    "id": 46266991,
+    "layer": 1,
+    "decisivesMessages": ["I really like you", "", ""],
+    "messages": [
+      { "whos": "yours", "text": "still wanna learn some poker?" },
+      { "whos": "yours", "text": "i don't know how to help tho hahah" },
+      { "whos": "theirs", "text": "U.U" },
+      { "whos": "theirs", "text": "I really want to 🥰" },
+      {
+        "whos": "yours",
+        "text": "I can send you some youtube videos. They'll teach way better then I ever could hahaha"
+      },
+      { "whos": "theirs", "text": "please do!" }
+    ],
+    "child1": {
+      "id": 974286233,
+      "layer": 2,
+      "decisivesMessages": ["child0", "child1", "child2"],
+      "messages": [
+        { "whos": "yours", "text": "i really need to tell you something" },
+        { "whos": "yours", "text": "i really " },
+        { "whos": "yours", "text": "really like you" },
+        { "whos": "theirs", "text": "ok, who's there? who took __ phone?" },
+        { "whos": "theirs", "text": "😂😂" }
+      ],
+      "fatherId": 264628347
+    },
+    "child0": {
+      "id": 974286233,
+      "layer": 2,
+      "decisivesMessages": ["", "", ""],
+      "messages": [
+        { "whos": "yours", "text": "i really need to tell you something" },
+        { "whos": "yours", "text": "i really " },
+        { "whos": "yours", "text": "really like you" },
+        { "whos": "theirs", "text": "ok, who's there? who took __ phone?" },
+        { "whos": "theirs", "text": "😂😂" }
+      ],
+      "fatherId": 264628347
+    }
+  }
+}

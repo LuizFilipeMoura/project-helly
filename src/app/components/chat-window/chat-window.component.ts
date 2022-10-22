@@ -1,6 +1,8 @@
 import { AfterViewInit, Component, HostListener, OnInit } from "@angular/core";
 import { Decision, Message, whos } from "src/app/decision-tree/decisions";
 import { ChatWindowService } from "./chat-window.service";
+import { decision } from "../../data/decision";
+import { HttpClient } from "@angular/common/http";
 
 class Timer {}
 
@@ -10,7 +12,7 @@ class Timer {}
   styleUrls: ["./chat-window.component.css"],
 })
 export class ChatWindowComponent implements OnInit, AfterViewInit {
-  constructor(public service: ChatWindowService) {}
+  constructor(public service: ChatWindowService, private http: HttpClient) {}
   whos = whos;
   previousMessages: Message[] = [];
   beingTyped: string = "";
@@ -19,92 +21,31 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
   decision: Decision;
   canType = false;
   interval: any;
+  hasToDecide = false;
 
-  ngOnInit(): void {
-    this.decision = {
-      messages: [
-        {
-          whos: whos.theirs,
-          text: "what is your name",
-        },
-        {
-          whos: whos.yours,
-          text: "luiz",
-        },
-      ],
-      decisivesMessages: ["what's your age", "what's your number", "what's your addres"],
-    } as Decision;
-    this.decision.child0 = {
-      messages: [
-        {
-          whos: whos.yours,
-          text: "23",
-        },
-      ],
-    };
-    this.decision.child1 = {
-      messages: [
-        {
-          whos: whos.yours,
-          text: "91",
-        },
-      ],
-    };
-    this.decision.child2 = {
-      messages: [
-        {
-          whos: whos.yours,
-          text: "rua",
-        },
-        {
-          whos: whos.theirs,
-          text: "a é?",
-        },
-        {
-          whos: whos.theirs,
-          text: "a é2?",
-        },
-        {
-          whos: whos.theirs,
-          text: "a é3?",
-        },
-        {
-          whos: whos.yours,
-          text: "sim",
-        },
-        {
-          whos: whos.yours,
-          text: "sim4",
-        },
-        {
-          whos: whos.theirs,
-          text: "a é?4",
-        },
-        {
-          whos: whos.theirs,
-          text: "a é5?",
-        },
-        {
-          whos: whos.theirs,
-          text: "a é6?",
-        },
-        {
-          whos: whos.yours,
-          text: "si2m",
-        },
-      ],
-    };
-    this.previousMessages = this.decision.messages;
+  async ngOnInit() {
+    this.http.get("assets/decision.json").subscribe((data) => {
+      this.decision = data as Decision;
+      console.log(decision);
+      this.sendMessage(this.decision.messages[0].whos, this.decision.messages[0].text);
+    });
   }
 
   @HostListener("window:keyup", ["$event"])
   typing(event?: KeyboardEvent) {
-    if (this.fullMessageBeingTyped.length > this.beingTyped.length && this.canType)
+    if (this.fullMessageBeingTyped.length > this.beingTyped.length && this.canType) {
       this.beingTyped += this.fullMessageBeingTyped[this.beingTyped.length];
+      if (this.fullMessageBeingTyped[this.beingTyped.length])
+        this.beingTyped += this.fullMessageBeingTyped[this.beingTyped.length];
+    } else if (event?.key == "Enter") {
+      this.sendMessage();
+    }
   }
 
   decide(decisionIndex: number) {
     this.canType = true;
+    this.hasToDecide = false;
+    this.messageIndex = 0;
     switch (decisionIndex) {
       case 0:
         this.decision = this.decision.child0 as Decision;
@@ -122,6 +63,7 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
     this.fullMessageBeingTyped = (leftMessages.find((message) => message.whos === whos.yours) as Message).text;
   }
   async sendMessage(_whos: whos = whos.yours, text = this.beingTyped) {
+    console.log("entrou");
     this.previousMessages?.push({ whos: _whos, text });
     await new Promise<void>((resolve) => {
       setTimeout(() => {
@@ -137,6 +79,7 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
     leftMessages = leftMessages.splice(this.messageIndex);
     if (leftMessages.length == 0) {
       this.canType = false;
+      this.hasToDecide = true;
       return;
     }
     const currentMessage = leftMessages[0];
@@ -153,16 +96,17 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
     }
   }
   ngAfterViewInit() {
-    let objDiv = document.getElementById("chat");
-    // @ts-ignore
-    objDiv.scrollTop = objDiv.scrollHeight;
+    // let objDiv = document.getElementById("chat");
+    // // @ts-ignore
+    // objDiv.scrollTop = objDiv.scrollHeight;
   }
 
   continuousTyping() {
-    this.interval = setInterval(() => this.typing(), 250);
+    this.interval = setInterval(() => this.typing(), 180);
   }
 
   clearInterval(interval: Timer) {
     clearInterval(this.interval);
   }
+
 }

@@ -1,4 +1,5 @@
-<div class="vw-100 vh-100 d-flex align-items-center justify-content-center flex-column gap-4">
+<div class="vw-100 vh-100 d-flex align-items-center justify-content-center flex-column gap-4" style="min-height: 100vh">
+  <button mat-raised-button [cdkCopyToClipboard]="stringfydecision()" class="position-fixed top-0 start-0">COPY TO SAVE</button>
   <div id="#123"></div>
   <div class="d-flex align-items-center justify-content-between gap-4" *ngFor="let layer of getLayers()">
     <h1>layer {{ layer }}</h1>
@@ -6,14 +7,30 @@
       class="decision decision1 gap-2"
       id="decision{{ decision.id }}"
       *ngFor="let decision of listDecisionsOnLayer(layer); let i = index"
-      [attr.data-index]="i"
+      style="{{ layer === 0 ? 'margin-top: 1500px' : '' }}"
     >
-      {{ decision.id }}
+
+      <div class="d-flex justify-content-between p-2">
+        {{ decision.id }}
+        <input #inputChild type="number" class="w-75 h-50" />
+        <select #selectChild class="h-50">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+
+        </select>
+        <button (click)="changeParent(selectChild.value,inputChild.value, decision)" class="h-50">parent</button>
+        <button (click)="removeDecision(decision)"><mat-icon>delete</mat-icon></button>
+      </div>
+
+
       <div class="gap-4">
         <div
           class="messages m-2 d-flex gap-4 flex-column"
           cdkDropList
+          id="decisionMessage{{ decision.id }}"
           (cdkDropListDropped)="drop($event, decision.messages)"
+          style="max-height: 300px; overflow: scroll"
         >
           <!--          <div-->
           <!--            class="d-flex message"-->
@@ -27,13 +44,13 @@
               class="d-flex w-100 message p-2"
               [class.yours]="message.whos === 'yours'"
               [class.theirs]="message.whos === 'theirs'"
-              (click)="editMessage(editMessageIndex)"
+              (click)="editMessage(decision.id + editMessageIndex)"
             >
               <div class="example-box">
-                <span *ngIf="_editMessageIndex === editMessageIndex">
+                <span *ngIf="_editMessageIndex === decision.id + editMessageIndex">
                   <input [(ngModel)]="message.text" (blur)="stopEdit()" autofocus id="_input" />
                 </span>
-                <span *ngIf="_editMessageIndex !== editMessageIndex">{{ message.text }}</span>
+                <span *ngIf="_editMessageIndex !== decision.id + editMessageIndex">{{ message.text }}</span>
               </div>
             </div>
             <button mat-icon-button (click)="removeMessage(decision, editMessageIndex)">
@@ -43,7 +60,7 @@
         </div>
       </div>
       <div class="d-flex">
-        <input #input class="w-100"/>
+        <input #input class="w-100" />
         <select #select>
           <option value="yours">you</option>
           <option value="theirs">theirs</option>
@@ -56,7 +73,7 @@
         </button>
       </div>
 
-      <div class="d-flex flex-row w-100 gap-2">
+      <div class="d-flex flex-column w-100 gap-2">
         <span *ngIf="decision.child0 && relocateArrows">
           <ngx-domarrow
             from="#{{ 'child0' + decision.id }}"
@@ -85,26 +102,31 @@
           ></ngx-domarrow
         ></span>
 
-        <button mat-raised-button class="w-100" (click)="addChild(decision, 0)" [id]="'child0' + decision.id">
-          child 0
+        <button
+          mat-raised-button
+          class="w-100"
+          (click)="addChild(decision, j)"
+          [id]="'child' + j + decision.id"
+          *ngFor="let j of [0, 1, 2]"
+        >
+          <span *ngIf="_editButtonIndex === j + decision.id">
+            <input [(ngModel)]="decision.decisivesMessages[j]" (blur)="stopEdit()" autofocus id="_input2" />
+          </span>
+          <span
+            *ngIf="_editButtonIndex !== j + decision.id"
+            style="background: red"
+            (click)="_editButtonIndex = j + decision.id"
+          >
+            {{ decision.decisivesMessages[j]  }} _____
+          </span>
         </button>
-        <button mat-raised-button class="w-100" (click)="addChild(decision, 1)" [id]="'child1' + decision.id">
-          child 1
-        </button>
-        <button mat-raised-button class="w-100" (click)="addChild(decision, 2)" [id]="'child2' + decision.id">
-          child 2
-        </button>
+        <!--        <button mat-raised-button class="w-100" (click)="addChild(decision, 1)" [id]="'child1' + decision.id">-->
+        <!--          child 1-->
+        <!--        </button>-->
+        <!--        <button mat-raised-button class="w-100" (click)="addChild(decision, 2)" [id]="'child2' + decision.id">-->
+        <!--          child 2-->
+        <!--        </button>-->
       </div>
     </div>
   </div>
-  <!--  <div class="d-flex align-items-center justify-content-between gap-4">-->
-  <!--    <div class="decision"></div>-->
-  <!--    <div class="decision"></div>-->
-  <!--  </div>-->
-  <!--  <div class="d-flex align-items-center justify-content-between gap-4">-->
-  <!--    <div class="decision"></div>-->
-  <!--    <div class="decision"></div>-->
-  <!--    <div class="decision" #image2 id="image2"></div>-->
-  <!--    <div class="decision"></div>-->
-  <!--  </div>-->
 </div>

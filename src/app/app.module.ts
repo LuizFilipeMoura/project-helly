@@ -6,15 +6,28 @@ import { ChatWindowComponent } from "./components/chat-window/chat-window.compon
 import { MatIconModule } from "@angular/material/icon";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatButtonModule } from "@angular/material/button";
-import { DeciosionMakerComponent } from './components/deciosion-maker/deciosion-maker.component';
-import {AppRoutingModule} from "./app-routing.module";
-import {NgxDomarrowModule} from "ngx-domarrow";
-import {DragDropModule} from "@angular/cdk/drag-drop";
-import {FormsModule} from "@angular/forms";
+import { DeciosionMakerComponent } from "./components/deciosion-maker/deciosion-maker.component";
+import { AppRoutingModule } from "./app-routing.module";
+import { NgxDomarrowModule } from "ngx-domarrow";
+import { DragDropModule } from "@angular/cdk/drag-drop";
+import { FormsModule } from "@angular/forms";
+import { ClipboardModule } from "@angular/cdk/clipboard";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [AppComponent, ChatWindowComponent, DeciosionMakerComponent],
-    imports: [BrowserModule, MatIconModule, BrowserAnimationsModule, MatButtonModule, AppRoutingModule, NgxDomarrowModule, DragDropModule, FormsModule],
+  imports: [
+    BrowserModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    AppRoutingModule,
+    NgxDomarrowModule,
+    DragDropModule,
+    FormsModule,
+    ClipboardModule,
+    HttpClientModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

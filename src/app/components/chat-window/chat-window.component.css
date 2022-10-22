@@ -30,6 +30,7 @@
   height: 328px;
   position: relative;
   gap: 10px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -88,6 +89,8 @@
   background: white;
   border: 1px solid #dedfe4;
   padding: 5px;
+  max-width: 330px;
+  word-break: break-word;
 }
 .disabledFake{
   background: #c7c7c7;
