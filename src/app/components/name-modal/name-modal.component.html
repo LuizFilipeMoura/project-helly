@@ -1,0 +1,5 @@
+<mat-form-field appearance="outline">
+  <mat-label>Your name</mat-label>
+  <input matInput placeholder="Ex. John" #input />
+</mat-form-field>
+<button mat-raised-button [mat-dialog-close]="input.value">Enter</button>

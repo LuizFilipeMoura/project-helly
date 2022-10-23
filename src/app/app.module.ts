@@ -13,9 +13,13 @@ import { DragDropModule } from "@angular/cdk/drag-drop";
 import { FormsModule } from "@angular/forms";
 import { ClipboardModule } from "@angular/cdk/clipboard";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
+import { NameModalComponent } from './components/name-modal/name-modal.component';
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import {MatDialogModule} from "@angular/material/dialog";
 
 @NgModule({
-  declarations: [AppComponent, ChatWindowComponent, DeciosionMakerComponent],
+  declarations: [AppComponent, ChatWindowComponent, DeciosionMakerComponent, NameModalComponent],
   imports: [
     BrowserModule,
     MatIconModule,
@@ -26,7 +30,10 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
     DragDropModule,
     FormsModule,
     ClipboardModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent],

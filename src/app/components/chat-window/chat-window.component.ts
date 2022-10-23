@@ -3,6 +3,8 @@ import { Decision, Message, whos } from "src/app/decision-tree/decisions";
 import { ChatWindowService } from "./chat-window.service";
 import { decision } from "../../data/decision";
 import { HttpClient } from "@angular/common/http";
+import { MatDialog } from "@angular/material/dialog";
+import { NameModalComponent } from "../name-modal/name-modal.component";
 
 class Timer {}
 
@@ -12,7 +14,7 @@ class Timer {}
   styleUrls: ["./chat-window.component.css"],
 })
 export class ChatWindowComponent implements OnInit, AfterViewInit {
-  constructor(public service: ChatWindowService, private http: HttpClient) {}
+  constructor(public service: ChatWindowService, private http: HttpClient, private dialog: MatDialog) {}
   whos = whos;
   previousMessages: Message[] = [];
   beingTyped: string = "";
@@ -22,17 +24,28 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
   canType = false;
   interval: any;
   hasToDecide = false;
+  yourName = "";
 
   async ngOnInit() {
     this.http.get("assets/decision.json").subscribe((data) => {
       this.decision = data as Decision;
-      console.log(decision);
-      this.sendMessage(this.decision.messages[0].whos, this.decision.messages[0].text);
+      setTimeout(() => (this.canType = false), 200);
+      this.dialog
+        .open(NameModalComponent)
+        .afterClosed()
+        .subscribe((data) => {
+          this.canType = true;
+          this.yourName = data;
+          this.sendMessage(this.decision.messages[0].whos, this.decision.messages[0].text);
+        });
     });
   }
 
   @HostListener("window:keyup", ["$event"])
   typing(event?: KeyboardEvent) {
+    if (!this.canType) {
+      return;
+    }
     if (this.fullMessageBeingTyped.length > this.beingTyped.length && this.canType) {
       this.beingTyped += this.fullMessageBeingTyped[this.beingTyped.length];
       if (this.fullMessageBeingTyped[this.beingTyped.length])
@@ -60,10 +73,13 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
     this.findYoursNextMessage(this.decision.messages);
   }
   findYoursNextMessage(leftMessages: Message[]) {
-    this.fullMessageBeingTyped = (leftMessages.find((message) => message.whos === whos.yours) as Message).text;
+    this.fullMessageBeingTyped = (leftMessages.find((message) => message.whos === whos.yours) as Message).text.replace(
+      "__",
+      this.yourName
+    );
   }
   async sendMessage(_whos: whos = whos.yours, text = this.beingTyped) {
-    console.log("entrou");
+    text = text.replace("__", this.yourName);
     this.previousMessages?.push({ whos: _whos, text });
     await new Promise<void>((resolve) => {
       setTimeout(() => {
@@ -108,5 +124,4 @@ export class ChatWindowComponent implements OnInit, AfterViewInit {
   clearInterval(interval: Timer) {
     clearInterval(this.interval);
   }
-
 }
